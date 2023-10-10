@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project Group 20</title>
+    <link rel="icon" href="assets/Star 1.png">
+    <link rel="stylesheet" href="css/login.css">
+    
+</head>
+<body>
+    <!-- navbar-container start -->
+    <nav class="navbar-container">
+        <div class="logo">
+            <img src="assets/Star 1.png" alt="Logo">
+            G20 EXPRESS SHIPPING
+        </div>
+            <ul class="navbar-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Layanan Kami</a></li>
+                <li><a href="#">Lacak Pengiriman</a></li>
+            </ul>
+    </nav>
+    <!-- navbar-container end -->
+
+    <!-- main-container start -->
+    <div class="main-container">
+        <div class="content">
+            <form>
+                <h2>LOGIN</h2>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Username" required>
+                
+                <div class="password-toggle" id="togglePassword">
+                    <input class="form-input" type="password" id="password" name="password" placeholder="Password" required>
+                    <img src="assets/eye-close.png" alt="Hide Password" id="eyeClosed">
+                    <img src="assets/eye-open.png" alt="Show Password" id="eyeOpen">
+                </div>
+                <button onclick="window.location.href='home.html'" type="submit" class="login-button">Login</button>
+                <p>Belum punya akun? <a href="registrasi.html">Daftar</a></p>
+            </form>
+        </div>
+    </div>
+    <!-- main-container end -->
+    <script src="js/script.js"></script>
+</body>
+</html>
